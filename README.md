@@ -1,5 +1,5 @@
 ## Setup Instructions
-1. Take all files in the repo and place inside a folder named `collection-manager`
+1. Take app.js, index.html, and style.css in the repo and place inside a folder named "collection-manager"
 2. Place the folder inside:
    C:\xampp\htdocs\
 
