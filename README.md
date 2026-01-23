@@ -1,9 +1,10 @@
 ## Setup Instructions
-1. Place folder `collection-manager` inside:
+1. Take all files in the repo and place inside a folder named `collection-manager`
+2. Place the folder inside:
    C:\xampp\htdocs\
 
-2. Start Apache
+3. Start Apache
 
-3. Open browser and go to:
+4. Open browser and go to:
    http://localhost/collection-manager
 
