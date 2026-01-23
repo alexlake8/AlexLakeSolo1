@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Movie Collection Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎬 Movie Collection Manager</h1>
+
+  <section id="stats">
+    <h2>Stats</h2>
+    <p>Total Movies: <span id="totalCount">0</span></p>
+    <p>Average Rating: <span id="avgRating">0</span></p>
+  </section>
+
+  <section>
+    <h2>Add / Edit Movie</h2>
+    <form id="movieForm">
+      <input type="hidden" id="movieId">
+
+      <label>Title</label>
+      <input type="text" id="title" required>
+
+      <label>Genre</label>
+      <input type="text" id="genre" required>
+
+      <label>Rating (1–10)</label>
+      <input type="number" id="rating" min="1" max="10" required>
+
+      <button type="submit">Save Movie</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Movie List</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Genre</th>
+          <th>Rating</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="movieTable"></tbody>
+    </table>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>

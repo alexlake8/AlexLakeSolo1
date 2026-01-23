@@ -1,0 +1,27 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 30px;
+}
+
+section {
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+button {
+  margin-top: 10px;
+}
