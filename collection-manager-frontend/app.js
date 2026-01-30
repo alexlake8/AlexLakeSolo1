@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:5000";
+const API_BASE = "https://alexlakesolo1.onrender.com";
 const PAGE_SIZE = 10;
 
 let currentPage = 1;
