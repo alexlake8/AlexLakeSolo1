@@ -1,40 +1,51 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Movie Collection Manager</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
   <h1>🎬 Movie Collection Manager</h1>
 
+  <!-- STATS VIEW -->
   <section id="stats">
     <h2>Stats</h2>
     <p>Total Movies: <span id="totalCount">0</span></p>
     <p>Average Rating: <span id="avgRating">0</span></p>
   </section>
 
+  <!-- ADD / EDIT FORM -->
   <section>
     <h2>Add / Edit Movie</h2>
+
     <form id="movieForm">
-      <input type="hidden" id="movieId">
+      <input type="hidden" id="movieId" />
 
-      <label>Title</label>
-      <input type="text" id="title" required>
+      <div>
+        <label for="title">Title</label><br />
+        <input type="text" id="title" required />
+      </div>
 
-      <label>Genre</label>
-      <input type="text" id="genre" required>
+      <div>
+        <label for="genre">Genre</label><br />
+        <input type="text" id="genre" required />
+      </div>
 
-      <label>Rating (1–10)</label>
-      <input type="number" id="rating" min="1" max="10" required>
+      <div>
+        <label for="rating">Rating (1–10)</label><br />
+        <input type="number" id="rating" min="1" max="10" required />
+      </div>
 
       <button type="submit">Save Movie</button>
     </form>
   </section>
 
+  <!-- LIST VIEW -->
   <section>
     <h2>Movie List</h2>
+
     <table>
       <thead>
         <tr>
@@ -46,6 +57,13 @@
       </thead>
       <tbody id="movieTable"></tbody>
     </table>
+
+    <!-- PAGING CONTROLS (REQUIRED) -->
+    <div style="margin-top: 10px;">
+      <button onclick="prevPage()">Previous</button>
+      <span id="pageIndicator">Page 1</span>
+      <button onclick="nextPage()">Next</button>
+    </div>
   </section>
 
   <script src="app.js"></script>
