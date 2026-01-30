@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "title": "Movie 1",
+    "genre": "Action",
+    "rating": 1
+  },
+  {
+    "id": 2,
+    "title": "Movie 2",
+    "genre": "Comedy",
+    "rating": 2
+  },
+  {
+    "id": 3,
+    "title": "Movie 3",
+    "genre": "Drama",
+    "rating": 3
+  },
+  {
+    "id": 4,
+    "title": "Movie 4",
+    "genre": "Horror",
+    "rating": 4
+  },
+  {
+    "id": 5,
+    "title": "Movie 5",
+    "genre": "Sci-Fi",
+    "rating": 5
+  },
+  {
+    "id": 6,
+    "title": "Movie 6",
+    "genre": "Romance",
+    "rating": 6
+  },
+  {
+    "id": 7,
+    "title": "Movie 7",
+    "genre": "Thriller",
+    "rating": 7
+  },
+  {
+    "id": 8,
+    "title": "Movie 8",
+    "genre": "Animation",
+    "rating": 8
+  },
+  {
+    "id": 9,
+    "title": "Movie 9",
+    "genre": "Action",
+    "rating": 9
+  },
+  {
+    "id": 10,
+    "title": "Movie 10",
+    "genre": "Comedy",
+    "rating": 10
+  },
+  {
+    "id": 11,
+    "title": "Movie 11",
+    "genre": "Drama",
+    "rating": 1
+  },
+  {
+    "id": 12,
+    "title": "Movie 12",
+    "genre": "Horror",
+    "rating": 2
+  },
+  {
+    "id": 13,
+    "title": "Movie 13",
+    "genre": "Sci-Fi",
+    "rating": 3
+  },
+  {
+    "id": 14,
+    "title": "Movie 14",
+    "genre": "Romance",
+    "rating": 4
+  },
+  {
+    "id": 15,
+    "title": "Movie 15",
+    "genre": "Thriller",
+    "rating": 5
+  },
+  {
+    "id": 16,
+    "title": "Movie 16",
+    "genre": "Animation",
+    "rating": 6
+  },
+  {
+    "id": 17,
+    "title": "Movie 17",
+    "genre": "Action",
+    "rating": 7
+  },
+  {
+    "id": 18,
+    "title": "Movie 18",
+    "genre": "Comedy",
+    "rating": 8
+  },
+  {
+    "id": 19,
+    "title": "Movie 19",
+    "genre": "Drama",
+    "rating": 9
+  },
+  {
+    "id": 20,
+    "title": "Movie 20",
+    "genre": "Horror",
+    "rating": 10
+  },
+  {
+    "id": 21,
+    "title": "Movie 21",
+    "genre": "Sci-Fi",
+    "rating": 1
+  },
+  {
+    "id": 22,
+    "title": "Movie 22",
+    "genre": "Romance",
+    "rating": 2
+  },
+  {
+    "id": 23,
+    "title": "Movie 23",
+    "genre": "Thriller",
+    "rating": 3
+  },
+  {
+    "id": 24,
+    "title": "Movie 24",
+    "genre": "Animation",
+    "rating": 4
+  },
+  {
+    "id": 25,
+    "title": "Movie 25",
+    "genre": "Action",
+    "rating": 5
+  },
+  {
+    "id": 26,
+    "title": "Movie 26",
+    "genre": "Comedy",
+    "rating": 6
+  },
+  {
+    "id": 27,
+    "title": "Movie 27",
+    "genre": "Drama",
+    "rating": 7
+  },
+  {
+    "id": 28,
+    "title": "Movie 28",
+    "genre": "Horror",
+    "rating": 8
+  },
+  {
+    "id": 29,
+    "title": "Movie 29",
+    "genre": "Sci-Fi",
+    "rating": 9
+  },
+  {
+    "id": 30,
+    "title": "Movie 30",
+    "genre": "Romance",
+    "rating": 10
+  }
+]
